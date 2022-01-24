@@ -7,6 +7,7 @@ h1 {
 /* for navigation menu, with an assinged div class */
         .navbar {
             /* to create an invisible box so the computer has a reference for what is "center" */
+            max-width: 1200px;
             padding: 5px;
             border: 1px solid #ffffff;
             /* to center the menu in the middle */
