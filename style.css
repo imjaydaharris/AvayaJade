@@ -1,0 +1,85 @@
+h1 {
+    color: #6f4caf;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* for navigation menu, with an assinged div class */
+        .navbar {
+            /* to create an invisible box so the computer has a reference for what is "center" */
+            padding: 5px;
+            border: 1px solid #ffffff;
+            /* to center the menu in the middle */
+            text-align: center;
+            font-style: italic;
+        }
+        /* for the individual menu items */
+        .navbar a {
+            /* to remove the underline */
+            text-decoration: none;
+            /* to space out each menu item */
+            padding: 50px;
+            /* to change the size of the menu items */
+            font-size: 20px;
+            /* to change the style of the text */
+            color: black;
+            font-family: Garamond, Georgia, 'Times New Roman', Times, serif
+        }
+        /* affects the design of the menu items */
+        li {
+            /* to remove the bullet points */
+            list-style: none;
+            /* to set the menu items horizontally */
+            display: inline-block;
+    
+        }
+        /* mouse over link */
+        .navbar a:hover {
+            color: rgb(121, 182, 231);
+        }
+        /* to set a background color for each active tab */
+        .navbar a.active {
+            color: rgb(0, 0, 0);
+            text-decoration: underline;
+            text-decoration-color: rgb(129, 84, 129);
+            /* determines the space between text and the underline */
+            text-underline-offset: 6px;
+        }
+
+.header {
+    /* to center the banner and choose the width */
+    display: block;
+    /* margin left and right is what makes the banner center */
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+  }
+
+
+.social li {
+    list-style: none;
+    margin: 10px 30px;
+    display: inline-block;
+    font-size: 20px;
+    /* the spacing between social icons */
+    padding: 60px 60px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+/* the overall social media bar */
+.social {
+    position: absolute;
+    top: 5%;
+    /* the higher the number, the further right it goes */
+    left: 50%;
+    transform: translate(-53%, -50%);
+}
+
+
+
+
+
