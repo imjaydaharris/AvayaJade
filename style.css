@@ -90,12 +90,13 @@ h1 {
     width:300px;
     height:25px;
     border-radius:25px;
-    border: #6f4caf;
+    border: none;
 
 }
 .search{
     float:right;
     margin:7px;
+    border: #6f4caf;
 }
   
 .search button{
